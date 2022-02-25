@@ -1,0 +1,23 @@
+@import 'scss/variables';
+@import 'scss/header';
+@import 'scss/navbar';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Segoe UI, sans-serif;
+  background-color: #f1f1f1;
+  color: #fff;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1400px;
+  width: 100%;
+}
