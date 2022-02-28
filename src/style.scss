@@ -1,6 +1,7 @@
 @import 'scss/variables';
 @import 'scss/header';
 @import 'scss/navbar';
+@import 'scss/content';
 
 * {
   box-sizing: border-box;
@@ -9,8 +10,8 @@
 body {
   margin: 0;
   font-family: Segoe UI, sans-serif;
-  background-color: #f1f1f1;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .container {

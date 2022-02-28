@@ -17,9 +17,13 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
-  height: 100%;
   align-items: center;
   font-size: 48px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 680px;
+  height: 100%;
 }
 
 .header-middle {
@@ -36,7 +40,17 @@
     text-align: center;
     overflow-wrap: break-word;
     font-weight: bold;
-    width: 284px;
     color: #4AE290;
+  }
+}
+
+@media only screen and (max-width: 752px)
+{
+  .header-middle {
+    flex-direction: column;
+  }
+
+  .header-section {
+    width: calc(100% - 2rem);
   }
 }
