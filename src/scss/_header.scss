@@ -27,6 +27,7 @@
 }
 
 .header-middle {
+  margin-bottom: 3rem;
   background: rgba(33, 37, 41, .6);
   border: 2px solid #4AE290;
   display: flex;
@@ -36,7 +37,7 @@
   padding: 1rem;
   border-radius: 4px;
 
-  > span {
+  > h1 {
     text-align: center;
     overflow-wrap: break-word;
     font-weight: bold;
@@ -48,6 +49,10 @@
 {
   .header-middle {
     flex-direction: column;
+
+    h2 {
+      font-size: 48px;
+    }
   }
 
   .header-section {
