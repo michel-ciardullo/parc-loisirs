@@ -17,12 +17,12 @@
   }
 }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 800px)
 {
   .content-section > .container {
     flex-direction: column;
 
-    svg {
+    img {
       width: 150px;
       height: 150px;
     }
@@ -38,7 +38,7 @@
   .content-section > .container {
     // flex-direction: column;
 
-    svg {
+    img {
       width: 100px;
       height: 100px;
     }
@@ -50,7 +50,7 @@
   .content-section > .container {
     // flex-direction: column;
 
-    svg {
+    img {
       width: 300px;
       height: 300px;
     }
@@ -71,7 +71,7 @@
   }
 }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 800px)
 {
   .content-section {
     text-align: center;
